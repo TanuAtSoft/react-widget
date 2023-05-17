@@ -25,13 +25,27 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KHMV08ENG6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KHMV08ENG6");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div style="margin: 100px auto; max-width: 500px;">
+    <div style="margin: 100px auto; max-width: 500px">
       <div class="reddit_widget" data-subreddit="javascript"></div>
     </div>
-    <div style="margin: 100px auto; max-width: 500px;">
+    <div style="margin: 100px auto; max-width: 500px">
       <div class="reddit_widget" data-subreddit="react"></div>
     </div>
     <!--
